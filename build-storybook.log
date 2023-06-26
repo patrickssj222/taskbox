@@ -1,0 +1,133 @@
+$ storybook build --output-dir /var/folders/3b/b2svh8gs60schynt0c22rrgc0000gn/T/chromatic--67778-Paf2H6lxm80K
+@storybook/cli v7.0.6
+
+info => Cleaning outputDir: /var/folders/3b/b2svh8gs60schynt0c22rrgc0000gn/T/chromatic--67778-Paf2H6lxm80K
+info => Loading presets
+info => Building manager..
+info => Manager built (103 ms)
+info => Copying static files: /Users/yun/taskbox/node_modules/@storybook/manager/static at /var/folders/3b/b2svh8gs60schynt0c22rrgc0000gn/T/chromatic--67778-Paf2H6lxm80K/sb-common-assets
+info => Copying static files: /Users/yun/taskbox/public at /var/folders/3b/b2svh8gs60schynt0c22rrgc0000gn/T/chromatic--67778-Paf2H6lxm80K/
+vite v4.2.2 building for production...
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+✓ 87 modules transformed.
+✓ built in 2.17s
+Could not resolve "./Header" from "src/stories/Page.jsx"
+file: /Users/yun/taskbox/src/stories/Page.jsx
+ERR! RollupError: Could not resolve "./Header" from "src/stories/Page.jsx"
+ERR!     at error (file:///Users/yun/taskbox/node_modules/rollup/dist/es/shared/node-entry.js:2125:30)
+ERR!     at ModuleLoader.handleInvalidResolvedId (file:///Users/yun/taskbox/node_modules/rollup/dist/es/shared/node-entry.js:23794:24)
+ERR!     at file:///Users/yun/taskbox/node_modules/rollup/dist/es/shared/node-entry.js:23756:26
+ERR!  Error [RollupError]: Could not resolve "./Header" from "src/stories/Page.jsx"
+ERR!     at error (file:///Users/yun/taskbox/node_modules/rollup/dist/es/shared/node-entry.js:2125:30)
+ERR!     at ModuleLoader.handleInvalidResolvedId (file:///Users/yun/taskbox/node_modules/rollup/dist/es/shared/node-entry.js:23794:24)
+ERR!     at file:///Users/yun/taskbox/node_modules/rollup/dist/es/shared/node-entry.js:23756:26 {
+ERR!   code: 'UNRESOLVED_IMPORT',
+ERR!   exporter: './Header',
+ERR!   id: '/Users/yun/taskbox/src/stories/Page.jsx',
+ERR!   watchFiles: [
+ERR!     '/Users/yun/taskbox/iframe.html',
+ERR!     '/Users/yun/taskbox/package.json',
+ERR!     '/virtual:/@storybook/builder-vite/vite-app.js',
+ERR!     '\x00vite/modulepreload-polyfill',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/react/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-links/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-essentials/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-interactions/package.json',
+ERR!     '/virtual:/@storybook/builder-vite/setup-addons.js',
+ERR!     '/virtual:/@storybook/builder-vite/storybook-stories.js',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/react/dist/config.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-links/dist/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-essentials/dist/docs/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-essentials/dist/actions/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-essentials/dist/backgrounds/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-essentials/dist/measure/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-essentials/dist/outline/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-essentials/dist/highlight/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-interactions/dist/preview.mjs',
+ERR!     '/Users/yun/taskbox/.storybook/preview.js',
+ERR!     '\x00vite/preload-helper',
+ERR!     '/Users/yun/taskbox/src/stories/Introduction.mdx',
+ERR!     '/Users/yun/taskbox/src/component/Button/Button.stories.js',
+ERR!     '/Users/yun/taskbox/src/stories/Page.stories.js',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-links/dist/chunk-VJY7NXNQ.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-links/dist/chunk-DXNAW7Q2.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-links/dist/chunk-JT3VIYBO.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-backgrounds/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-backgrounds/dist/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-actions/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-actions/dist/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/docs-tools/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/prop-types/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/html-tags/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/escodegen/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/ts-dedent/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/acorn/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/acorn-jsx/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/acorn-walk/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/lodash/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/react-element-to-jsx-string/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/react/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/prop-types/index.js',
+ERR!     '/Users/yun/taskbox/node_modules/html-tags/index.js',
+ERR!     '/Users/yun/taskbox/node_modules/escodegen/escodegen.js',
+ERR!     '/Users/yun/taskbox/node_modules/ts-dedent/esm/index.js',
+ERR!     '/Users/yun/taskbox/node_modules/acorn-jsx/index.js',
+ERR!     '/Users/yun/taskbox/node_modules/lodash/isPlainObject.js',
+ERR!     '/Users/yun/taskbox/node_modules/lodash/isFunction.js',
+ERR!     '/Users/yun/taskbox/node_modules/lodash/isString.js',
+ERR!     '/Users/yun/taskbox/node_modules/react-element-to-jsx-string/dist/esm/index.js',
+ERR!     '/Users/yun/taskbox/node_modules/react/index.js',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/react/dist/chunk-JWY6Y6NU.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/react/dist/chunk-R4NKYYJA.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/docs-tools/dist/index.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/acorn/dist/acorn.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/acorn-walk/dist/walk.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-docs/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-docs/dist/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-measure/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-measure/dist/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-outline/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-outline/dist/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-highlight/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-highlight/dist/preview.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/global/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/instrumenter/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/jest-mock/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/jest-mock/build/index.js',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-interactions/dist/chunk-NNAAFZ4U.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/global/dist/index.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/instrumenter/dist/index.mjs',
+ERR!     '/Users/yun/taskbox/src/component/Button/Button.jsx',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/blocks/package.json',
+ERR!     '\x00react/jsx-runtime',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-essentials/dist/docs/mdx-react-shim.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/blocks/dist/index.mjs',
+ERR!     '/Users/yun/taskbox/src/stories/assets/code-brackets.svg',
+ERR!     '/Users/yun/taskbox/src/stories/assets/colors.svg',
+ERR!     '/Users/yun/taskbox/src/stories/assets/comments.svg',
+ERR!     '/Users/yun/taskbox/src/stories/assets/direction.svg',
+ERR!     '/Users/yun/taskbox/src/stories/assets/flow.svg',
+ERR!     '/Users/yun/taskbox/src/stories/assets/plugin.svg',
+ERR!     '/Users/yun/taskbox/src/stories/assets/repo.svg',
+ERR!     '/Users/yun/taskbox/src/stories/assets/stackalt.svg',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/testing-library/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/testing-library/dist/esm/index.js',
+ERR!     '/Users/yun/taskbox/src/stories/Page.jsx',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-actions/dist/chunk-KKE3V3AL.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-actions/dist/chunk-VWCVBQ22.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/csf/package.json',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/csf/dist/index.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/@storybook/addon-backgrounds/dist/chunk-GRJZJKJ4.mjs',
+ERR!     '/Users/yun/taskbox/node_modules/lodash/_baseGetTag.js',
+ERR!     '/Users/yun/taskbox/node_modules/lodash/_getPrototype.js',
+ERR!     '/Users/yun/taskbox/node_modules/lodash/isObjectLike.js',
+ERR!     '/Users/yun/taskbox/node_modules/prop-types/factoryWithThrowingShims.js',
+ERR!     '/Users/yun/taskbox/node_modules/lodash/isObject.js',
+ERR!     '/Users/yun/taskbox/node_modules/html-tags/html-tags.json',
+ERR!     '/Users/yun/taskbox/node_modules/react/jsx-runtime.js',
+ERR!     ... 98 more items
+ERR!   ]
+ERR! }
+[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m›[39m [90m(Y/n)[39m
